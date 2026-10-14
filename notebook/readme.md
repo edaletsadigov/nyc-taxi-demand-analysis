@@ -3,8 +3,8 @@
 Hourly and daily demand analysis of 1,458,644 NYC taxi trips (January–June 2016). This page explains what the notebook contains, which libraries it uses, and **why each one was chosen**.
 
 - **Notebook:** [`nyc_analysis.ipynb`](nyc_analysis.ipynb) (executed, all outputs saved, no errors)
-- **Data:** `NYC.csv`, described in [`../data/README.md`](../data/README.md). The file is ~200 MB, is **not** stored in this repository, and must be placed **in this folder** (next to the notebook) before running, because the notebook reads it with `pd.read_csv('NYC.csv')`.
-- **Charts produced:** 9, exported as PNG in [`../charts/`](../charts/README.md)
+- **Data:** `NYC.csv`, described in [`../data/README.md`](../data/readme.md). The file is ~200 MB, is **not** stored in this repository, and must be placed **in this folder** (next to the notebook) before running, because the notebook reads it with `pd.read_csv('NYC.csv')`.
+- **Charts produced:** 9, exported as PNG in [`../charts/`](../charts/readme.md)
 - **Results and recommendations:** [`../README.md`](../README.md)
 
 ---
@@ -60,7 +60,7 @@ Every chart is followed by a printed `Takeaway:` line computed from the data, an
    ```bash
    pip install -r requirements.txt
    ```
-2. Download `NYC.csv` (see [`../data/README.md`](../data/README.md)) and put it **in this folder**.
+2. Download `NYC.csv` (see [`../data/README.md`](../data/readme.md)) and put it **in this folder**.
 3. Open `nyc_analysis.ipynb` in Jupyter or VS Code and use *Run All*. Reading the 200 MB CSV and the tests on 1.4M rows are the slowest steps, so allow a few minutes.
 
 ---
